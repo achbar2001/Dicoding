@@ -1,0 +1,21 @@
+history
+Sebagai navigasi (go back atau go forward) histori URL browser.
+
+location
+Mendapatkan URL yang terdapat pada address bar browser.
+
+alert()
+Menampilkan dialog alert dengan pesan dan tombol “ok”.
+
+close()
+Menutup tab yang aktif.
+
+confirm()
+Menampilkan dialog dengan pesan dan tombol “ok” dan “cancel”. Method ini akan mengembalikan nilai boolean sesuai response dari pengguna.
+
+prompt()
+Menampilkan dialog dengan pesan dan teks input. Method ini akan mengembalikan nilai string sesuai response dari pengguna.
+
+
+Pada JavaScript, browser dikenal sebagai window object. Di dalam objek window itu sendiri terdapat banyak properties dan method yang bisa digunakan, salah satu yang sudah kita ketahui adalah alert().
+Kita bisa melihat secara lengkap apa saja properti, method serta event yang ada pada objek window melalui console browser dengan mengetikkan window pada console.

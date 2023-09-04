@@ -1,0 +1,23 @@
+Block
+Nilai block berfungsi untuk mengatur elemen agar ditampilan dalam baris sendiri.
+Elemen sebelum dan sesudahnya akan ditampilkan dalam baris yang baru.
+
+Inline
+Nilai inline berfungsi untuk mengatur elemen agar ditampilan dalam baris yang sama dengan elemen 
+sebelum atau sesudahnya yang bernilai inline juga.
+Perlu diingat, ketika sebuah elemen bernilai inline, ia tidak bisa diberikan properti padding,
+width, dan margin top bottom.
+
+Inline-Block
+Nilai inline-block adalah gabungan dari inline dan block, elemen akan ditampilkan secara inline 
+atau satu baris, tapi sifatnya seperti block, bisa diatur ukuran padding, width, dan margin-nya.
+tapi sifatnya seperti block, bisa diatur ukuran padding, width, dan margin-nya.
+
+None
+Nilai none befungsi untuk mengatur elemen agar tidak ditampilan.
+
+Visibility: hidden;
+digunakan untuk menyembunyikan elemen dengan mengambil atau menyisakan ruang sesuai ukuran elemennya.
+
+Flex (flexibel) adalah salah satu super power display dari CSS3. Memungkinkan untuk pengaturan layout, 
+posisi dan tampilan dari suatu konten yang ukurannya belum diketahui atau bernilai dinamis.

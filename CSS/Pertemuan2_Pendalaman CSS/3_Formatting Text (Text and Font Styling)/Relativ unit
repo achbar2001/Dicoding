@@ -1,0 +1,24 @@
+em (Satuan)
+Font size
+Satuan relatif terhadap ukuran font yang sedang digunakan pada elemen (contohnya, 2em berarti 2 kali lebih besar dari 
+ukuran font seharusnya).
+
+ex(Satuan)
+Font height
+Satuan relatif terhadap tinggi font saat ini, satuan ini sangat jarang sekali digunakan
+
+rem(Satuan)
+Font size
+Mirip seperti em, tetapi rem merupakan satuan relatif terhadap ukuran font dari root element.
+
+ch(Satuan)
+Font width
+Satuan relatif terhadap lebar dari karakter “0” nol.
+
+vw(Satuan)
+Viewport width
+Satuan relatif terhadap 1% lebar viewport. Contoh 1vw = 1% dari lebar viewport. Satuan ini tidak didukung pada browser IE8 ke bawah.
+
+vh(Satuan)
+Viewport height
+Satuan relatif terhadap 1% tinggi viewport. Contoh 1vh = 1% dari tinggi viewport. Satuan ini tidak didukung pada browser IE8 ke bawah.

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--Untuk menambahkan Event Handler pada elemen kita gunakan method, addEventListener() pada target 
+      element. Method ini membutuhkan setidaknya dua buah argument.
+   
+   Kemudian yang kedua adalah sebuah fungsi yang akan dijalankan ketika event terjadi. Pada fungsi ini 
+   kita dapat memberikan sebuah argumen yang merupakan object yang berisikan informasi tentang action 
+   yang terjadi. Termasuk informasi mengenai target elemen event-nya (event.target). Argumen ini biasanya
+   diberikan nama “event”.
+   Lihat kode berikut untuk menerapkan addEventListener() pada sebuah elemen.
+   
+   catImage.addEventListener('click', function(event) {
+   document.querySelector('#count').innerText++;
+   });
+
+   Dengan menjalankan kode tersebut pada latihan sebelumnya, berarti kita memberikan sebuah event ‘click’
+   pada elemen catImage. Ketika gambar kucing ditekan akan menjalankan fungsi yang menambahkan nilai 
+   konten pada elemen dengan id count.
+-->
+   <title>Menambahkan Aksi (Event) pada Element </title>
+</head>
+<body>
+<figure>
+   <img id="catImage" src="https://i.ibb.co/9WT6LG6/two-three.jpg" alt="three-cats" width="600px"/>
+   <figcaption id="caption">Tiga Anak Kucing</figcaption>
+</figure>
+</html>

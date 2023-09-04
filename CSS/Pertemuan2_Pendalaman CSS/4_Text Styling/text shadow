@@ -1,0 +1,4 @@
+Nilai pertama : menunjukkan seberapa jauh ke kiri atau kanan (horizontal) bayangan harus ditampakkan.
+Nilai kedua : menunjukkan jarak ke atas atau ke bawah (vertical) bayangan harus ditampakkan. 
+Nilai Ketiga (opsional) : menentukan tingkat keburaman yang harus diterapkan pada bayangan.
+Nilai Keempat :  menentukan warna yang digunakan pada bayangan.

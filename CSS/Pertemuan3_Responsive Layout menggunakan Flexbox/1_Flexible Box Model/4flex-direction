@@ -1,0 +1,4 @@
+row : merupakan nilai default, di mana deretan flex-item pada container ditampilkan secara horizontal.
+row-reverse : memiliki sifat yang sama seperti row, namun urutan flex item-nya ditukar.
+column : Deretan flex-item pada container ditampilkan secara vertikal.
+column-reverse : memiliki sifat yang sama seperti column, namun urutan flex item-nya ditukar.

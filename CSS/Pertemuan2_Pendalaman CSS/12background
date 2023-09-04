@@ -1,0 +1,7 @@
+1	background-color	memberi warna pada latar belakang
+2	background-image	memberi gambar pada latar belakang dari suatu element
+3	background-repeat	memberi perintah pada gambar yang ada di latar belakang untuk perulangan.
+4	background-position	mengatur posisi gambar pada latar belakang
+5	background-attachment	mengatur suatu gambar apakah jika mouse di scroll gambar ikut scroll atau tetap
+6	background-size	menentukan ukuran gambar pada latar belakang
+7	background	mengatur latar belakang pada element secara luas

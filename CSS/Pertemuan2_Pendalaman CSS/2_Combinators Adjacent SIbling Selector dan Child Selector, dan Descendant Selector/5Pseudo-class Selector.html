@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selector</title>
+    <style>
+        /*Pseudo-class merupakan sebuah class “semu” yang sebenarnya ada pada tiap elemen HTML.
+         Kita bisa menetapkan rule hanya ketika sebuah tautan telah dikunjungi (:visited) atau ketika 
+         sebuah elemen diarahkan dengan kursor (:hover).*/
+
+
+       /* rule akan diterapkan pada sebuah tautan yang belum pernah dikunjungi */
+        a:link {
+        color:darkorange;
+        }
+        
+        /* rule akan diterapkan pada sebuah tautan yang sudah pernah dikunjungi */
+        a:visited {
+        color: green;
+        }
+        
+        /* rule akan diterapkan pada sebuah tautan ketika diarahkan dengan kursor */
+        a:hover {
+        color:blanchedalmond;
+        }
+        
+        /* rule akan diterapkan pada sebuah tautan ketika ditekan */
+        a:active {
+        color:darkblue;
+        }
+
+        p::first-letter{
+            color: blue;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bandung</h1>
+    <p>Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu kota provinsi tersebut.</p>
+        <ul>
+            <li><a href="https://www.google.com" target="_blank">Google</a></li>
+            <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+            <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+        </ul>
+</body>
+</html>

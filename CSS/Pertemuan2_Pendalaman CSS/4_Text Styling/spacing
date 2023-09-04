@@ -1,0 +1,15 @@
+text-indent 
+digunakan untuk menentukan jarak spasi indent pada baris pertama pada tulisan:
+
+letter-spacing
+digunakan untuk menentukan spasi antar karakter dalam tulisan.
+
+line-height
+digunakan untuk menentukan besar ruang atau jarak antar baris:
+
+word-spacing
+digunakan untuk menentukan spasi antara kata dalam tulisan.
+
+white-space
+menentukan bagaimana white-space di dalam elemen.
+

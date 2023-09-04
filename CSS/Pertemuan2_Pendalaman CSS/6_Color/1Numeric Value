@@ -1,0 +1,11 @@
+/*Dengan menggunakannya kita dapat menentukan warna yang kita inginkan dengan tepat. Terlebih dengan bantuan 
+color picker maka kita tak perlu repot memahami dan mencari nilai kode warna secara manual.
+
+/* Warna hijau menggunakan format RGB
+color: rgb(78,231,23);
+ 
+/* Warna hijau Menggunakan format HEX 
+color: #4ee717;
+ 
+/* Warna hijau menggunakan format HSL (hanya di CSS3)
+color: hsl(104, 82%, 50%);

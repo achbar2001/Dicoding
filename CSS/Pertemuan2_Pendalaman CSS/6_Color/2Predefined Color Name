@@ -1,0 +1,6 @@
+Menentukan warna bisa juga dilakukan selain dengan menggunakan format angka. Kita bisa menggunakan sebuah 
+kata seperti blue, yellow, red dan lainnya
+
+color: black;
+color: white;
+color: blue;

@@ -1,0 +1,24 @@
+getElementById()
+document.getElementById(“display”);
+Mengembalikan elemen yang memiliki nilai id “display”.
+
+getElementsByName()
+document.getElementsByName(“button”)
+Mengembalikan banyak elemen (HTMLCollection) yang memiliki attribute name dengan nilai “button”.
+
+getElementsByClassName()
+document.getElementsByClassName(“button”)
+Mengembalikan banyak elemen (HTMLCollection) yang memiliki attribute class dengan nilai “button”.
+
+getElementsByTagName()
+document.getElementsByTagname(“div”)
+Mengembalikan banyak elemen (HTMLCollection) yang merupakan <div> elemen
+
+querySelector()
+document.querySelector(“.button”);
+Mengembalikan elemen pertama yang menerapkan class “button”.
+
+querySelectorAll()
+document.querySelectorAll(“.button”);
+Mengembalikan banyak elemen (HTMLCollection) yang menerapkan class “button”.
+

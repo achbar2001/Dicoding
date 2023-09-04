@@ -1,0 +1,23 @@
+==
+Membandingkan kedua nilai apakah sama. (Tidak Identik)
+
+!=
+Membandingkan kedua nilai apakah tidak sama. (Tidak Identik)
+
+===
+Membandingkan kedua nilai apakah identik.
+
+!==
+Membandingkan kedua nilai apakah tidak identik.
+
+>
+Membandingkan dua nilai apakah nilai pertama lebih besar dari nilai kedua.
+
+>=
+Membandingkan dua nilai apakah nilai pertama lebih besar atau sama dengan dari nilai kedua.
+
+<
+Membandingkan dua nilai apakah nilai pertama lebih kecil dari nilai kedua.
+
+<=
+Membandingkan dua nilai apakah nilai pertama lebih kecil dari atau sama dengan nilai kedua.

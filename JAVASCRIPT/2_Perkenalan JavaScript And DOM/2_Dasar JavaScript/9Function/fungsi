@@ -1,0 +1,5 @@
+Terdapat dua tipe fungsi pada JavaScript, yakni native function dan custom function.
+
+Native function merupakan fungsi yang sudah terdapat pada JavaScript atau Browser sehingga kita tidak 
+perlu membuat hanya tinggal menggunakan saja. Contohnya alert(), confirm(), Date(), parseInt() dll. 
+Sebenarnya terdapat ratusan native function yang tersedia.

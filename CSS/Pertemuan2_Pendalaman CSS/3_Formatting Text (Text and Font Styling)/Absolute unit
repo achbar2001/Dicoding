@@ -1,0 +1,21 @@
+px
+Menetapkan nilai font berdasarkan ukuran pixel
+
+pt
+Menetapkan nilai font berdasarkan points (1/72 inch di CSS2.1)
+
+pc
+Menetapkan nilai font berdasarkan picas (1 pica = 12 point)
+
+mm
+Menetapkan nilai font berdasarkan millimeters
+
+cm 
+Menetapkan nilai font berdasarkan centimeters
+
+in
+Menetapkan nilai font berdasarkan inches
+
+Dan yang terakhir kita juga bisa menentukan ukuran font dengan menuliskan kata kunci secara spesifik yang 
+tersedia pada CSS. Kata kunci tersebut adalah: xx-small, x-small, small, medium, large, x-large, dan 
+xx-large.

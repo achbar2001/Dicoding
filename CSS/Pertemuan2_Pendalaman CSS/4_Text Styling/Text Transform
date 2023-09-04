@@ -1,0 +1,11 @@
+text-transform: none
+Teks yang ditampilkan sama seperti yang dituliskan
+
+text-transform: capitalize
+Membuat huruf pertama besar pada tiap katanya
+
+text-transform: lowercase
+Membuat seluruh teks menggunakan huruf kecil
+
+Text-transform: uppercase
+Membuat seluruh teks menggunakan huruf besar

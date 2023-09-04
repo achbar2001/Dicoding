@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!--Descendant Selector mirip seperti child selector namun hierarkinya lebih luas, karena rule akan 
+        diterapkan pada seluruh elemen yang menjadi turunannya walaupun secara tidak langsung. Basic 
+        selector pertama yang dituliskan pada selector ini menjadi induknya dan basic selector yang kedua 
+        merupakan elemen yang akan menerapkan rule.-->
+   <title>Judul Dokumen</title>
+   <style>
+       /* Rule akan diterapkan pada elemen paragraf yang merupakan turunan dari elemen div */
+       div p {
+           background-color: yellow;
+       }
+   </style>
+</head>
+<body>
+    <div>
+        <p>Paragraf pertama. di dalam div.</p>
+        <p>Paragraf kedua. di dalam div.</p>
+    <section><p>Paragraf ketiga. di dalam div walaupun bukan sebagai anak elemen secara langsung, namun termasuk dalam turunannya.</p></section>
+        <p>Paragraf keempat. di dalam div.</p>
+    </div>
+    <p>Paragraf kelima. di luar div.</p>
+    <p>Paragraf keenam. di luar div.</p>
+</body>
+</html>

@@ -1,0 +1,52 @@
+table
+Menetapkan elemen tabel.
+
+td
+Menetapkan sebuah sel dalam baris tabel.
+
+colspan=”number”
+Jumlah kolom yang dicakup oleh sel.
+
+rowspan=”number”
+Jumlah baris yang dicakup oleh sel.
+
+headers=”nama header”
+Mengasosiasikan data sel dengan header.
+
+th
+Menetapkan header yang terkait dengan baris atau kolom.
+
+colspan=”number”
+Jumlah kolom dicakup oleh header.
+
+
+rowspan=”number”
+Jumlah row yang dicakup oleh header.
+
+headers=”nama header”
+Mengasosiasikan header dengan header lain.
+
+scope=”row|col|rowgroup|colgroup”
+Mengasosiasikan header dengan baris, kelompok baris, kolom atau kelompok kolom.
+
+tr
+Menetapkan sebuah baris pada tabel.
+
+caption
+Memberikan judul pada sebuah tabel.
+
+col
+Menetapkan sebuah kolom.
+
+colgroup
+Menetapkan sebuah kelompok kolom.
+
+tbody
+Mengidentifikasi sebuah body dalam tabel.
+
+tfoot
+Mengidentifikasi sebuah footer dalam tabel.
+
+thead
+Mengidentifikasi sebuah header dalam tabel.
+

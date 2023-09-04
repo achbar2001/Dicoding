@@ -1,0 +1,11 @@
+text-align: left
+Membuat perataan teks pada ujung kiri
+
+text-align: right
+Membuat perataan teks pada ujung kanan
+
+text-align: center
+Membuat perataan teks secara menengah
+
+text-align: justify
+Membuat perataan teks yang setara pada ujung kiri dan kanannya

@@ -1,0 +1,11 @@
+text-decoration: underline
+Memberikan garis bawah (underline) pada teks
+
+text-decoration: overline
+Memberikan garis atas (overline) pada teks
+
+text-decoration: line-through
+Memberikan efek tulisan dicoret (strikethrough)
+
+text-decoration: none
+Menghilangkan dekorasi teks yang ada pada elemen

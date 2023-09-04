@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!--Properti flex-grow ini digunakan untuk memberitahu berapa banyak ukuran yang harus ditetapkan 
+        oleh flex-item. Nilai dari properti ini bukan nilai dari dimensi asli pada flex item, melainkan 
+        nilai yang relatif terhadap ruang kosong pada flex container.
+        
+        Cara kerja flex-grow mirip seperti potongan kue. Ruang kosong pada elemen akan dibagi-bagi sesuai 
+        besaran nilainya. Contoh di atas memberi kita gambaran seperti sebuah kue dengan luas total 4, 
+        kemudian kue tersebut dipotong menjadi 3 potong. Potongan yang tengah mendapatkan 2 bagian dan 
+        potongan yang lainnya masing - masing mendapatkan 1 bagian. Maka potongan yang tengah akan lebih 
+        besar dari potongan yang lain.-->
+   <style>
+       .container {
+           display: flex;
+ 
+           /* Properti lainnya */
+           width: 800px;
+           height: 250px;
+           background-color: #11C5C6;
+           border: 2px solid black;
+           padding: 20px;
+           border-radius: 10px;
+           margin: 0 auto;
+       }
+       .box {
+           /* properti lainnya */
+           background-color: #FBDD1C;
+           margin: 5px;
+           border: 2px solid black;
+           border-radius: 10px;
+       }
+ 
+       .first {
+           flex-grow: 1;
+       }
+       .second {
+           flex-grow: 2;
+       }
+ 
+       .third {
+           flex-grow: 1;
+       }
+   </style>
+</head>
+<body>
+<div class="container">
+   <div class="box first"></div>
+   <div class="box second"></div>
+   <div class="box third"></div>
+</div>
+</body>
+</html>
